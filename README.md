@@ -8,7 +8,7 @@ I skabelonen tages udgangspunkt i en TODO-liste app med tkinter og ttkbootstrap.
 
 **Beskrivelse:** En enkel, men funktionel opgaveliste-applikation bygget med Python, tkinter og ttkbootstrap. Projektet demonstrerer, hvordan man strukturerer Copilot-instruktioner for at få mest muligt ud af AI-assisteret kodning.
 
-**Målgruppe:** Begynderprogrammører, der gerne vil lære god praksis inden for AI-assisteret udvikling.
+**Målgruppe:** Programmører, der gerne vil lære god praksis inden for AI-assisteret udvikling.
 
 ---
 
@@ -68,7 +68,7 @@ Brug skabelonen i `example-prompt-file.prompt.md`:
 **Spørgsmål:** Hvordan laves en modal dialog i ttkbootstrap?
 ```
 
-### 3. Få h$jælp fra Copilot
+### 3. Få hjælp fra Copilot
 
 Copilot kan hjælpe med:
 
@@ -107,7 +107,7 @@ Alt kode skal følge reglerne i `python.instructions.md`. Copilot vil automatisk
 
 1. **Start med planlægning:** Brug Copilot til at planlægge features før du koder
 2. **Stil klare spørgsmål:** Jo mere specifik du er, jo bedre svar får du
-3. **Læs de genererede koder:** Lær fra hvad Copilot foreslår
+3. **Læs den forelåede kode:** Lær fra hvad Copilot foreslår
 4. **Test alt:** Copilot hjælper, men du skal stadig teste din kode
 5. **Dokumenter dine beslutninger:** Skriv *hvorfor*, ikke bare *hvad*
 
@@ -115,7 +115,9 @@ Alt kode skal følge reglerne i `python.instructions.md`. Copilot vil automatisk
 
 ## Lær mere
 
-- [GitHub Copilot dokumentation](https://docs.github.com/en/copilot)
+- [Customize chat to your workflow](https://code.visualstudio.com/docs/copilot/customization/overview)
+- [Use custom instructions](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
+- [Use prompt files in VS Code](https://code.visualstudio.com/docs/copilot/customization/prompt-files)
 - [Python bedste praksis](https://pep8.org/)
 - [tkinter tutorial](https://docs.python.org/3/library/tkinter.html)
 - [ttkbootstrap dokumentation](https://ttkbootstrap.readthedocs.io/)

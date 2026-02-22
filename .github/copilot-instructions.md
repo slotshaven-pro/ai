@@ -1,53 +1,69 @@
-# Copilot Instructions for This Repository
+# GitHub Copilot Instructions
 
-## Overview
-This repository primarily uses Jupyter Notebooks to combine Python code and Markdown documentation. The notebooks are designed to:
-- Demonstrate Python code snippets.
-- Provide inline documentation and explanations using Markdown.
-- Allow interactive execution of code cells.
+This file configures how GitHub Copilot should assist you in this project. Customize these instructions to match your coding style and project needs.
 
-## Key Concepts
-1. **Notebook Structure**:
-   - Each notebook consists of cells that can contain either Python code or Markdown.
-   - Code cells can be executed independently, but they retain the state of previously executed cells.
-   - Markdown cells are used for documentation and cannot be executed.
+## Project Overview
 
-2. **Execution Flow**:
-   - Code cells depend on the execution order. Ensure that any dependencies (e.g., variable definitions) are executed in the correct sequence.
-   - Use the "Run All" feature to execute all cells in order, or run cells individually as needed.
+**Project Name:** [Your project name]
+**Description:** [Brief description—e.g., "A to-do list application built with Python, tkinter, and ttkbootstrap"]
+**Target Users:** [Who will use this code?—e.g., "Novice Python programmers"]
 
-3. **Extending the Notebook**:
-   - Add new cells for additional code or documentation.
-   - Maintain a clear separation between code and Markdown for readability.
+## Code Style & Conventions
 
-## Developer Workflows
-- **Testing Code**: Execute code cells interactively to verify functionality.
-- **Debugging**: Modify and re-run individual cells to isolate and fix issues.
-- **Documentation**: Use Markdown cells to explain the purpose and functionality of code snippets.
+### Python Standards
+- [Add your Python style rules—indentation, naming, imports, etc.]
+- [Example: "Use snake_case for functions and variables"]
+- [Example: "Maximum line length: 88 characters"]
 
-## Project-Specific Conventions
-- Use descriptive variable names and comments in code cells.
-- Keep Markdown cells concise and relevant to the adjacent code.
-- Avoid hardcoding values; use variables where possible.
+### GUI (tkinter + ttkbootstrap)
+- [How should widgets be organized?]
+- [Naming conventions for callbacks and event handlers?]
+- [How to apply themes and styling?]
 
-## Example
-Here is an example of a typical notebook cell:
+## Project Structure
 
-### Markdown Cell
+Describe your folder layout:
 ```
-# Reverse a String
-This cell explains the purpose of the code in the next cell.
+project-root/
+├── src/          [Your source code]
+├── tests/        [Unit tests]
+├── docs/         [Documentation]
+└── data/         [Data files, configs, etc.]
 ```
 
-### Code Cell
-```python
-tekst = 'Dette er python i en workbook'
-print(tekst[::-1])
-```
+## When Asking for Help
 
-## Contribution Guidelines
-- Ensure that new notebooks follow the existing structure and conventions.
-- Test all code cells before committing changes.
-- Update Markdown documentation to reflect any changes in the code.
+1. **Be specific:** Describe *what* you want, not just "make this work"
+2. **Show context:** Share relevant code snippets
+3. **Ask one thing at a time:** Easier to get focused answers
+4. **Use the example-prompt-file.prompt.md template:** Structures your request
 
-For further questions, refer to the Jupyter Notebook documentation or consult the project maintainers.
+## Copilot Capabilities in This Project
+
+Copilot can help with:
+- ✅ Explaining how code works
+- ✅ Generating unit tests
+- ✅ Proposing bug fixes
+- ✅ Creating new features
+- ✅ Code reviews
+- ✅ Documentation
+
+Copilot cannot:
+- ❌ Run code directly
+- ❌ Access external APIs or databases
+- ❌ Make permanent decisions about design
+
+## Logging & Documentation
+
+- All interactions are logged to `copilot.log.md`
+- Keep comments in code clear and helpful
+- Document *why* decisions were made, not just *what* the code does
+
+## Special Instructions
+
+[Add any project-specific rules here—e.g., "Always include error handling," "Use type hints," "Write docstrings for all functions"]
+
+---
+
+**Last updated:** [Date]
+**Modified by:** [Your name]

@@ -1,66 +1,123 @@
-# Coding with Copilot
+# AI-Assisteret To-Do Liste
 
-This repository contains files and configurations to help you work with AI tools like Copilot. Below is a simple guide to understand the purpose of key files in this project.
+Dette er en skabelon for nybegyndere, der ønsker at lære, hvordan man bruger GitHub Copilot til at udvikle en Python-applikation.
 
-## Files Overview
+I skabelonen tages udgangspunkt i en TODO-liste app med tkinter og ttkbootstrap.
 
-### .github/copilot-instructions.md
+## Om projektet
 
-- **Purpose**: Provides guidelines for using Jupyter Notebooks effectively in this repository.
-- **Example**:
+**Beskrivelse:** En enkel, men funktionel opgaveliste-applikation bygget med Python, tkinter og ttkbootstrap. Projektet demonstrerer, hvordan man strukturerer Copilot-instruktioner for at få mest muligt ud af AI-assisteret kodning.
 
-```markdown
-  ## Key Concepts
-  1. **Notebook Structure**:
-     - Each notebook consists of cells that can contain either Python code or Markdown.
-     - Code cells can be executed independently, but they retain the state of previously executed cells.
+**Målgruppe:** Begynderprogrammører, der gerne vil lære god praksis inden for AI-assisteret udvikling.
+
+---
+
+## Forudsætninger
+
+- Python 3.8 eller nyere
+- Git
+- Tekstfremstiller (VS Code anbefales)
+- GitHub Copilot Chat-udvidelse installeret
+
+---
+
+## Projektstruktur
+
+```bash
+pro/ai/
+├── .github/
+│   ├── copilot-instructions.md      # Copilot-konfiguration
+│   ├── python.instructions.md       # Python-kodestandarder
+│   └── example-prompt-file.prompt.md # Prompt-skabelon
+├── src/
+│   ├── main.py                      # Indgangspunkt for appen
+│   ├── models/                      # Datamodeller
+│   └── views/                       # GUI-komponenter
+├── tests/                           # Enhedstests
+├── docs/                            # Dokumentation
+├── AGENTS.md                        # Agent-instruktioner
+├── copilot.log.md                   # Interaktionslog
+└── README.md                        # Dette fil
 ```
 
-### .github/instructions/readme.instructions.md
+---
 
-- **Purpose**: Offers guidelines for writing README files, including grammar and style rules.
-- **Example**:
+## Hvordan bruger man Copilot i dette projekt?
 
-```markdown
-  ## General Guidelines
-  - Write clear and concise documentation.
-  - Use consistent terminology and style.
-```
+### 1. Forstå instruktionerne
 
-### .github/instructions/markdown.instructions.md
+Læs disse filer før du starter:
 
-- **Purpose**: Provides general guidelines for writing project documentation in Markdown.
-- **Example**:
+- **`copilot-instructions.md`** - Generelle retningslinjer for projektet
+- **`python.instructions.md`** - Python og GUI-kodestandarder
+- **`AGENTS.md`** - Hvordan forskellige AI-agenter fungerer
 
-```markdown
-  ## Markdown Guidelines
-  - Use headings to organize content.
-  - Use bullet points for lists.
-```
+### 2. Stil gode spørgsmål
 
-### .github/instructions/python.instructions.md
-
-- **Purpose**: Contains coding guidelines for Python files in the repository.
-- **Example**:
+Brug skabelonen i `example-prompt-file.prompt.md`:
 
 ```markdown
-  Provide project context and coding guidelines that AI should follow when generating code, answering questions, or reviewing changes.
+**Kontekst:** Jeg bygger indstillingsdialogen for to-do appen
+
+**Nuværende tilstand:** Jeg har en hovedvindue med opgavelisten
+
+**Mål:** Lav en indstillingsdialog til temavalg
+
+**Begrænsninger:** Skal være modal og bruge ttkbootstrap
+
+**Spørgsmål:** Hvordan laves en modal dialog i ttkbootstrap?
 ```
 
-### .github/prompts/example-prompt-file.prompt.md
+### 3. Få h$jælp fra Copilot
 
-- **Purpose**: Template for defining tasks for AI agents, including requirements and constraints.
-- **Example**:
+Copilot kan hjælpe med:
 
-```markdown
-  Define the task to achieve, including specific requirements, constraints, and success criteria.
-```
+- ✅ At forklare, hvordan kode fungerer
+- ✅ At generere enhedstests
+- ✅ At foreslå fejlrettelser
+- ✅ At skrive nye funktioner
+- ✅ At gennemgå din kode
+- ✅ At skrive dokumentation
 
-## VS Code Settings
+Copilot kan **ikke**:
 
-### Relevant Settings for Copilot
+- ❌ Køre kode direkte
+- ❌ Få adgang til eksterne databaser
+- ❌ Træffe permanente designbeslutninger
 
-- **Code Suggestions**: Ensure IntelliSense is enabled for real-time code suggestions.
-- **Python Environment**: Configure the Python environment to match the requirements in `requirements.txt`.
-- **Extensions**: Install extensions like "Python" and "Jupyter" for better integration.
+### 4. Følg kodestandarderne
 
+Alt kode skal følge reglerne i `python.instructions.md`. Copilot vil automatisk foreslå kode, der følger disse standards.
+
+---
+
+## Vigtige filer
+
+| Fil | Formål |
+|-----|--------|
+| `copilot-instructions.md` | Konfigurer Copilot til dit projekt |
+| `python.instructions.md` | Definer Python-kodestandarder |
+| `AGENTS.md` | Beskriv, hvordan AI-agenter skal fungere |
+| `example-prompt-file.prompt.md` | Lær at skrive gode prompts |
+| `copilot.log.md` | Log af alle Copilot-interaktioner |
+
+---
+
+## Tips til nybegyndere
+
+1. **Start med planlægning:** Brug Copilot til at planlægge features før du koder
+2. **Stil klare spørgsmål:** Jo mere specifik du er, jo bedre svar får du
+3. **Læs de genererede koder:** Lær fra hvad Copilot foreslår
+4. **Test alt:** Copilot hjælper, men du skal stadig teste din kode
+5. **Dokumenter dine beslutninger:** Skriv *hvorfor*, ikke bare *hvad*
+
+---
+
+## Lær mere
+
+- [GitHub Copilot dokumentation](https://docs.github.com/en/copilot)
+- [Python bedste praksis](https://pep8.org/)
+- [tkinter tutorial](https://docs.python.org/3/library/tkinter.html)
+- [ttkbootstrap dokumentation](https://ttkbootstrap.readthedocs.io/)
+
+---

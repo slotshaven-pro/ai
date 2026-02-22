@@ -3,23 +3,28 @@ applyTo: "README.md"
 ---
 # README file guidelines
 
-## Introduction
-Put a copyright notice in introduction: 
+- Top-level header: [state top-level-header]
+
+Include these 2nd-level sections:
+
+- Hvem er vi?
+- Indledning
+- Anvendelse
+- Teknologier
+
+## Content of section "Hvem er vi?"
+Put a copyright notice in introduction:
 Slotshaven Gymnasium (C) 2026
 
-## General Guidelines
-- Write clear and concise documentation.
-- Use consistent terminology and style.
-- Include code examples where applicable.
+## Content of section "Indledning"
+Brief summary of project.
 
-## Grammar
-* Use present tense verbs (is, open) instead of past tense (was, opened).
-* Write factual statements and direct commands. Avoid hypotheticals like "could" or "would".
-* Use active voice where the subject performs the action.
-* Write in second person (you) to speak directly to readers.
+## Content of section "Teknologier"
+Generate list of used technologies.
 
-## Markdown Guidelines
-- Use headings to organize content.
-- Use bullet points for lists.
-- Include links to related resources.
-- Use code blocks for code snippets.
+## Content of section "Anvendelse"
+Brief description of how to use product.
+
+## Markdown Instructions
+Use Danish language.
+Refer to instructions in copilot instruction file "markdown.instructions.md" for general style instructions when writing markdown.

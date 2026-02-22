@@ -1,4 +1,4 @@
-# AI-Assisteret To-Do Liste
+# AI-assisteret T0DO-liste
 
 Dette er en skabelon for nybegyndere, der ønsker at lære, hvordan man bruger GitHub Copilot til at udvikle en Python-applikation.
 

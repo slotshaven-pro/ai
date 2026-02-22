@@ -16,7 +16,7 @@ I skabelonen tages udgangspunkt i en TODO-liste app med tkinter og ttkbootstrap.
 
 - Python 3.8 eller nyere
 - Git
-- Tekstfremstiller (VS Code anbefales)
+- VS Code
 - GitHub Copilot Chat-udvidelse installeret
 
 ---

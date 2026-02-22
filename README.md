@@ -1,12 +1,8 @@
-# AI-assisteret T0DO-liste
-
-Dette er en skabelon for nybegyndere, der ønsker at lære, hvordan man bruger GitHub Copilot til at udvikle en Python-applikation.
-
-I skabelonen tages udgangspunkt i en TODO-liste app med tkinter og ttkbootstrap.
+# T0DO-liste
 
 ## Om projektet
 
-**Beskrivelse:** En enkel, men funktionel opgaveliste-applikation bygget med Python, tkinter og ttkbootstrap. Projektet demonstrerer, hvordan man strukturerer Copilot-instruktioner for at få mest muligt ud af AI-assisteret kodning.
+**Beskrivelse:** En enkel, men funktionel opgaveliste-applikation bygget med Python, tkinter og ttkbootstrap.
 
 **Målgruppe:** Programmører, der gerne vil lære god praksis inden for AI-assisteret udvikling.
 

@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"window.title": "AI - template repo",
+		"window.title": "TODO list",
 		"python.terminal.activateEnvInCurrentTerminal": true,
 		"editor.tabSize": 4,
 		"editor.indentSize": "tabSize",
